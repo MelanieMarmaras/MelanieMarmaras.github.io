@@ -56,6 +56,10 @@ table {
 	div {
 		color:black;
 	  }
+    nav {
+		font-size:15pt;
+		font-weight:bold;
+	  }
 	h2 {
 		font-size:15pt;
 		font-weight:bold;
