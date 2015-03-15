@@ -55,7 +55,10 @@ table {
 <style>
 	div {
 		color:black;
-		font-size:30px;
-		line-height:1.3em;
 	  }
+	h2 {font-size:30pt;
+	  }
+	footer {color:red;
+	  }  
+	  
 </style>	
