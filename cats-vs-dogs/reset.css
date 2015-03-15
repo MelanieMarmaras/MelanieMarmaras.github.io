@@ -56,7 +56,9 @@ table {
 	div {
 		color:black;
 	  }
-	h2 {font-size:30pt;
+	h2 {
+		font-size:20pt;
+		font-weight:bold;
 	  }
 	footer {color:red;
 	  }  
