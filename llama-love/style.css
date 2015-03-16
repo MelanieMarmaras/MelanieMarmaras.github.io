@@ -52,16 +52,14 @@ table {
 
 /* -----------------END RESET---------------- */
 
-<style>
 
     body {
       font-family:Helvetica;
 	  font-size:9px;
-         }	
-		 
+         }	 
     h1 {
    		font-size:18px;
-      	     }
+        }
     h2 {
    	    font-size:6px;
    	     }
@@ -76,4 +74,3 @@ article {
 	    width:45%;
 	    margin:2.5%;
          }		 
-</style>
