@@ -53,16 +53,18 @@ table {
 /* -----------------END RESET---------------- */
 
 <style>
+
+  div {
+font-family:Helvetica;
+      }	
 	p {
 		font-size:9pt;
-		}
+	  }
 	h1 {
 		font-size:18pt
-		font-family:Helvetica;
 		}
 	h2 {
 	    font-size:6pt
-		font-family:Helvetica;
 	   }
 	.article {
 		float:left;
