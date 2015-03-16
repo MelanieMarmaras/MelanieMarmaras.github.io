@@ -54,17 +54,15 @@ table {
 
 <style>
 
-     div {
+    body {
       font-family:Helvetica;
+	  font-size:9px;
          }	
-	   p {
-		font-size:9pt;
-	     }
       h1 {
-		font-size:18pt
+		font-size:18px
    	     }
       h2 {
-	    font-size:6pt
+	    font-size:6px
 	     }
 article {
 		float:left;
