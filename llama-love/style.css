@@ -58,12 +58,14 @@ table {
       font-family:Helvetica;
 	  font-size:9px;
          }	
-      h1 {
-		font-size:18px
+		 
+    h1 {
+   		font-size:18px;
+      	     }
+    h2 {
+   	    font-size:6px;
    	     }
-      h2 {
-	    font-size:6px
-	     }
+
 article {
 		float:left;
 		width:45%;
