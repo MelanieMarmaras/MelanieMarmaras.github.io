@@ -64,4 +64,8 @@ table {
 	    font-size:6pt
 		font-family:Helvetica;
 	   }
+	.article {
+		float:left;
+		width:150px;
+	         }
 </style>
