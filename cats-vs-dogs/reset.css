@@ -58,7 +58,8 @@ table {
 		font-weight:bold;
 		float:left;
 		margin:10px;
-		padding:7px 14px;
+		padding-top: 7px;
+		padding-bottom: 14px;
 		width:150px
 	  }
 	h2 {
