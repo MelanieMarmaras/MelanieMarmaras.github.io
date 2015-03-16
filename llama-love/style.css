@@ -53,7 +53,7 @@ table {
 /* -----------------END RESET---------------- */
 
 <style>
-	div {
+	p {
 		font-size:9pt;
 		}
 	h1 {
@@ -63,5 +63,5 @@ table {
 	h2 {
 	    font-size:6pt
 		font-family:Helvetica;
-			}
+	   }
 </style>
