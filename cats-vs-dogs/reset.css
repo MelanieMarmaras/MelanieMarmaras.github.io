@@ -51,7 +51,9 @@ table {
 
 /* END RESET */
 
-body {color:purple;}
+	body {
+		color:orange;
+	    }
     nav {
 		font-size:18pt;
 		font-weight:bold;
