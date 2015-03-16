@@ -55,7 +55,7 @@ table {
 <style>
 
   div {
-font-family:Helvetica;
+      font-family:Helvetica;
       }	
 	p {
 		font-size:9pt;
@@ -68,6 +68,7 @@ font-family:Helvetica;
 	   }
 	.article {
 		float:left;
-		width:150px;
+		width:45%;
+		margin:2.5%;
 	         }
 </style>
