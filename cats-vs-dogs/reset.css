@@ -51,10 +51,12 @@ table {
 
 /* END RESET */
 
-	    }
+	    
     nav {
 		font-size:18pt;
 		font-weight:bold;
+		float:left;
+		width:150px;
 	  }
 	h2 {
 		font-size:18pt;
