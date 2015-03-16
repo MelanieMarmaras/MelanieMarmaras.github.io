@@ -54,21 +54,26 @@ table {
 
 <style>
 
-  div {
+     div {
       font-family:Helvetica;
-      }	
-	p {
+         }	
+	   p {
 		font-size:9pt;
-	  }
-	h1 {
+	     }
+      h1 {
 		font-size:18pt
-		}
-	h2 {
+   	     }
+      h2 {
 	    font-size:6pt
-	   }
-	.article {
+	     }
+.article1 {
 		float:left;
 		width:45%;
 		margin:2.5%;
-	         }
+	     }
+.article2 {
+		float:left;
+		width:45%;
+		margin:2.5%;
+		  }		 
 </style>
