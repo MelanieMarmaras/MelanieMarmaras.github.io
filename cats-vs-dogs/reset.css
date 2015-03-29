@@ -51,23 +51,41 @@ table {
 
 /* END RESET */
 
-	    
+body{
+	font-size:10pt;
+}
+	img{
+	    float:top;
+	    width:45%;
+	    margin:2.5%;
+	   }    
+ article {
+	   		float:left;
+	   		width:45%;
+	   		margin:1.5%;
+	   	 } 
     li {
 		font-size:18pt;
 		background color:teal;
 		font-weight:bold;
 		float:left;
-		margin:10px;
+		margin:0 auto;
 		padding-top: 7px;
 		padding-bottom: 14px;
-		width:150px
+		width:150px;
+		border-top-style:solid;
+		border-bottom-style:solid;
+		border-width:medium;
 	  }
 	h2 {
-		font-size:18pt;
+		font-size:14pt;
 		font-weight:bold;
 	  }
 	footer {
+		float:bottom;
 		color:red;
 		font-size:9pt;
+		border-top-style:solid;
+		border-width:medium;
 	  }  
 	  	
