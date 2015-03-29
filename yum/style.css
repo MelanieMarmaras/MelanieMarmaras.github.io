@@ -53,4 +53,27 @@ table {
 
 /* END RESET */
 
+body {
+     font-family:Telugu;
+     }
+h1   {
+	 font-size:20pt;
+	 font-weight:bold;
+     }
+h2   {
+	 font-size:12pt;
+	 }
+.ingrediants {
+	 font-size:9pt;
+	 float:right;
+	 }
+	 
+
+
+
+
+
+
+
+
 
