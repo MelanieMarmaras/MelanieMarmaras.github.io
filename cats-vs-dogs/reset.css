@@ -68,10 +68,10 @@ header {
 		background color:teal;
 		font-weight:bold;
 		float:left;
+		width:150px;
 		margin:0 auto;
 		padding-top: 6px;
 		padding-bottom: 6px;
-		width:150px;
 		border-top-style:solid;
 		border-bottom-style:solid;
 		border-width:medium;
@@ -82,7 +82,7 @@ header {
   	   }    
    article {
   	   		float:left;
-  	   		width:15%;
+  	   		width:25%;
   	   		margin:2.5%;
   	   	 }
 	h2 {
