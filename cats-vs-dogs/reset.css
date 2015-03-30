@@ -52,39 +52,56 @@ table {
 /* END RESET */
 
 body{
+	font-family:georgia;
 	font-size:10pt;
+	margin:0 auto;
+	width:100%;
 }
-	img{
-	    float:top;
-	    width:45%;
-	    margin:2.5%;
-	   }    
- article {
-	   		float:left;
-	   		width:45%;
-	   		margin:1.5%;
-	   	 } 
+header { 
+	text-align:center;
+}
+.logo {
+	display:inline-block;
+} 
     li {
 		font-size:18pt;
 		background color:teal;
 		font-weight:bold;
 		float:left;
 		margin:0 auto;
-		padding-top: 7px;
-		padding-bottom: 14px;
+		padding-top: 6px;
+		padding-bottom: 6px;
 		width:150px;
 		border-top-style:solid;
 		border-bottom-style:solid;
 		border-width:medium;
 	  }
+  	img{
+  	    width:100%;
+  	    margin:2.5%;
+  	   }    
+   article {
+  	   		float:left;
+  	   		width:15%;
+  	   		margin:2.5%;
+  	   	 }
 	h2 {
-		font-size:14pt;
+		font-size:18pt;
 		font-weight:bold;
 	  }
 	footer {
-		float:bottom;
-		font-size:9pt;
+		clear: both;
+		font-size:10pt;
 		border-top-style:solid;
 		border-width:medium;
+		padding:1.5%;
 	  }  
-	  span{color:red;}
+	  .wiki1 {
+		  float:left;
+	  }
+	  .wiki2 {
+		  float:right;
+	  }
+	  span {
+		  color:firebrick;
+	  }
