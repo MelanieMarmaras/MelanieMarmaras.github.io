@@ -63,19 +63,30 @@ header {
 .logo {
 	display:inline-block;
 } 
-    li {
+    
+/*nav ul li {
+	font-size:18pt;
+	color:black;
+	font-weight:bold;
+	display:inline;
+}
+*/
+	
+	nav ul li{
 		font-size:18pt;
 		background color:teal;
 		font-weight:bold;
-		float:left;
 		width:150px;
 		margin:0 auto;
 		padding-top: 6px;
 		padding-bottom: 6px;
+		display:inline;
+	  }
+	  nav {
 		border-top-style:solid;
 		border-bottom-style:solid;
 		border-width:medium;
-	  }
+	}
   	img{
   	    width:100%;
   	    margin:2.5%;
