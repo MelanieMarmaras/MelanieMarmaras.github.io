@@ -83,9 +83,8 @@ body{
 	  }
 	footer {
 		float:bottom;
-		color:red;
 		font-size:9pt;
 		border-top-style:solid;
 		border-width:medium;
 	  }  
-	  	
+	  span{color:red;}
