@@ -55,23 +55,30 @@ table {
 
 body {
      font-family:Telugu;
+	 margin: 0 auto;
+     width:80%;
      }
 h1   {
 	 font-size:20pt;
 	 font-weight:bold;
      }
 h2   {
-	 font-size:12pt;
+	 font-size:16pt;
 	 }
-.ingrediants {
+#content {
 	 font-size:9pt;
 	 float:right;
+	 width:20%;
 	 }
-.instructions{
+.instructions {
 	 font-size:11pt;
-	 float:right;
+	 width:20%;
      }
-	 
+img  {
+	 float:left;
+	 width:20%;
+	 margin:3.5%;
+	 }
 
 
 
