@@ -99,6 +99,7 @@ body {
 #footer-follow {
 	float:right;
 	width:50%;
+	text-align:right;
 }
 #footer-follow li {
 	float:left;
