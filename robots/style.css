@@ -33,6 +33,36 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	width:100%;
+}
+#site-wrapper {
+	margin:0 auto;
+	width:80%;
+}
+#site-header {
+	background-color:wheat;
+	width:100%;
+}
+#menu-wrapper{
+	background-color:sienna;
+}
+#main-menu {
+	margin:0 auto;
+	width:80%;
+}
+#content-wrapper {
+	background-color:white;
+}
+#content {
+	margin:0 auto;
+	width:80%;
+}
+#footer-wrapper {
+	background-color:sienna;
+}
+#site-footer {
+	margin:0 auto;
+	width:80%;
 }
 ol, ul {
 	list-style: none;
@@ -49,4 +79,3 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
