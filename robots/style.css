@@ -51,6 +51,7 @@ body {
 #top-nav {
 	float:right;
 	width:50%;
+	text-align:right;
 }
 #menu-wrapper{
 	background-color:sienna;
@@ -84,11 +85,23 @@ body {
 }
 #footer-wrapper {
 	background-color:sienna;
+	height:100px;
 	clear:both;
 }
 #site-footer {
 	margin:0 auto;
 	width:80%;
+}
+#footer-contact {
+	float:left;
+	width:50%;
+}
+#footer-follow {
+	float:right;
+	width:50%;
+}
+#footer-follow li {
+	float:left;
 }
 ol, ul {
 	list-style: none;
