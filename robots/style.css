@@ -42,23 +42,49 @@ body {
 #site-header {
 	background-color:wheat;
 	width:100%;
+	height:50px;
+}
+#site-header h1 {
+	float:left;
+	width:50%;
+}
+#top-nav {
+	float:right;
+	width:50%;
 }
 #menu-wrapper{
 	background-color:sienna;
+	float:none;
+	height:50px;
 }
 #main-menu {
 	margin:0 auto;
 	width:80%;
 }
+#main-menu li {
+    float:left;	
+}
 #content-wrapper {
 	background-color:white;
+	clear:both;
 }
 #content {
 	margin:0 auto;
 	width:80%;
 }
+#page {
+	float:left;
+	width:60%;
+	margin-right:5%;
+}
+#sidebar {
+	float:left;
+	width:30%;
+	margin-left:5%;
+}
 #footer-wrapper {
 	background-color:sienna;
+	clear:both;
 }
 #site-footer {
 	margin:0 auto;
