@@ -64,11 +64,6 @@ body {
 	height:740px;
 	background-color:burlywood;
 }	
-#numbers1 {
-	font-family:gillsans;
-	float:left;
-	width:8%;
-} 
 h1   {
 	 font-family:gotham;
 	 font-size:20pt;
@@ -95,16 +90,31 @@ img  {
 	 margin-bottom:5%;
 	 margin-right:5%;
 	 }
+#numbers1 {
+	 	font-family:gillsans;
+	 	float:left;
+	 	width:8%;
+	 } 
+.ingrediants {
+	 	 	 font-family:gillsans;
+	 		 font-weight:100;	
+	 	} 
+		
+#numbers2 {
+	clear:both;
+	font-family:gillsans;
+	float:left;
+	width:20%;
+			}
+			
 .instructions {
 	 font-family:gillsans;
-	 clear:both;
 	 font-size:10pt;
-	 width:100%;
+	 float:left;
+	 width:80%;
      }
-.ingrediants {
-	 	 font-family:gillsans;
-		 font-weight:100;	
-	} 
+	
+
 
 
 
