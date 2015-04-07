@@ -97,7 +97,8 @@ img  {
 	 } 
 .ingrediants {
 	 	 	 font-family:gillsans;
-	 		 font-weight:100;	
+	 		 font-weight:100;
+			 line-height:1.2em;	
 	 	} 
 		
 #numbers2 {
@@ -108,20 +109,20 @@ img  {
 	padding-left:13%;
     padding-top:30px;
 }
-.1 {
-	margin-bottom:1%;
-}		
-.2 {
-	margin-bottom:5%;
+#one {
+	padding-bottom:10px;
 }
-.3 {
-	margin-bottom:1%;
+#two {
+	padding-bottom:40px;
+}	
+#three {
+	padding-bottom:20px;
 }
-.4 {
-	margin-bottom:1%;
+#four {
+	padding-bottom:40px;
 }
-.5 {
-	margin-bottom:1%;
+#five {
+	padding-bottom:10px;
 }	
 .instructions {
 	 font-family:gillsans;
