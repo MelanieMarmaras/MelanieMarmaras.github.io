@@ -54,7 +54,6 @@ table {
 /* END RESET */
 
 body {
-     font-family:gotham;
 	 margin: 0 auto;
      width:45%;
 	 
@@ -66,18 +65,20 @@ body {
 	background-color:burlywood;
 }	
 #numbers1 {
+	font-family:gillsans;
 	float:left;
 	width:8%;
 } 
 h1   {
+	 font-family:gotham;
 	 font-size:20pt;
 	 font-weight:bold;
 	 padding-top:20%;
      }
 	 
 h2   {
+	 font-family:gotham;
 	 font-size:12pt;
-	 font-weight:thin;
 	 padding-bottom:8%;
 	 }
 	 
@@ -95,11 +96,15 @@ img  {
 	 margin-right:5%;
 	 }
 .instructions {
+	 font-family:gillsans;
 	 clear:both;
-	 font-size:11pt;
+	 font-size:10pt;
 	 width:100%;
      }
-	 
+.ingrediants {
+	 	 font-family:gillsans;
+		 font-weight:100;	
+	} 
 
 
 
