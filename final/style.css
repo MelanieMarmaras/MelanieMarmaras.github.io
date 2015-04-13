@@ -63,9 +63,10 @@ img  {
 	 padding:5%;
 	 }
 #mobiles {
-         clear:both;
+	     clear:both;
 	     float:left;
-		 width:30%;
+		 width:20%;
+		 padding:5%;
 		 }
 	
 	
