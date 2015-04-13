@@ -56,10 +56,11 @@ table {
 
 body {
 	 margin: 0 auto;
-     width:40%;
+     width:50%;
      }
 img  {
 	 width:100%;
+	 padding:10%;
 	 }
 #mobiles {
 		 width:30%;
