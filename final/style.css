@@ -62,11 +62,10 @@ img  {
 	 width:100%;
 	 padding:5%;
 	 }
-#mobiles {
-	     clear:both;
-	     float:left;
-		 width:35%;
-		 padding:5%;
-		 }
+#mobiles img {
+	         float:left;
+		     padding:5%;
+			 width:35%;
+		     }
 	
 	
