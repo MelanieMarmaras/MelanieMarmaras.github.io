@@ -56,13 +56,13 @@ table {
 
 body {
 	 margin: 0 auto;
-     width:45%;
+     width:100%;
      }
- img  {
-	 	 width:100%;
-	 	 margin:10%;
-		 padding:10%;
-	 	 }
-	
+img  {
+	 width:100%;
+	 }
+.mobiles {
+		 width:30%;
+		 }
 	
 	
