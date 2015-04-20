@@ -64,6 +64,11 @@ table {
 
 }
 
+.dogsvscats {
+	font-family: 'league_gothicregular';
+	font-size:80px;
+}
+
 body{
 	font-family:georgia;
 	font-size:10pt;
