@@ -149,20 +149,12 @@ img {max-width:100%}
 @media screen and (max-width:750px) {
     #doge { float:none; width:98%; margin:0 1%; }
 	#kyo { float:none; width:98%; margin:0 1%; }
-    #nav { float:none; width:98%; margin:0 1%; }
-  }
-  
-  
-  
-  
-  
-  
-  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
+	#li {display:none}
+}
+
+
+
+
+
+
+
