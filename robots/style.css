@@ -107,6 +107,10 @@ p{
 	float:left;
 	width:30%;
 	margin-left:5%;
+	line-height:1.4em;
+	padding-top:1%;
+	color:saddlebrown;
+
 }
 #footer-wrapper {
 	background-color:sienna;
