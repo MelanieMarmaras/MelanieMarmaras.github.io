@@ -45,14 +45,14 @@ body {
 	font-weight:bold;
 	font-size:18pt;
 	text-transform:uppercase;
-	color:saddlebrown;
+	color:#663300;
 	padding-top:5%;
 }
 h2 {
 	font-weight:bold;
 	font-size:10pt;
 	text-transform:uppercase;
-	color:saddlebrown;
+	color:#663300;
 	line-height:1.4em;
 	padding-top:2%;
 }
@@ -80,9 +80,9 @@ p{
 	text-align:right;
 }
 #menu-wrapper{
-	background-color:saddlebrown;
+	background-color:#663300;
 	float:none;
-	height:50px;
+	height:30px;
 }
 #main-menu {
 	margin:0 auto;
@@ -96,7 +96,9 @@ p{
 
 #main-menu li {
     float:left;
-	padding:2em;
+	padding-right:3em;
+	padding-top:.75em;
+	padding-bottom:2em;
 	font-family:helvetica;
     font-weight:bold;
     font-style: normal;
@@ -123,11 +125,11 @@ p{
 	margin-left:5%;
 	line-height:1.4em;
 	padding-top:1%;
-	color:saddlebrown;
+	color:#663300;
 
 }
 #footer-wrapper {
-	background-color:sienna;
+	background-color:#663300;
 	height:150px;
 	clear:both;
 }
@@ -138,6 +140,10 @@ p{
 #footer-contact {
 	float:left;
 	width:20%;
+}
+
+ span {
+	color:beige;
 }
 #footer-follow {
 	float:right;
