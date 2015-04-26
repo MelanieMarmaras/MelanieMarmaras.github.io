@@ -78,8 +78,14 @@ p{
 	float:right;
 	width:50%;
 	text-align:right;
-	
+	padding-top:1em;
 }
+
+#top-nav a {
+text-decoration:none;
+color:#663300;
+}
+
 #menu-wrapper{
 	background-color:#663300;
 	float:none;
@@ -109,6 +115,7 @@ p{
 #content-wrapper {
 	background-color:white;
 	clear:both;
+	padding-bottom:30%;
 }
 #content {
 	margin:0 auto;
@@ -127,6 +134,16 @@ p{
 	line-height:1.4em;
 	padding-top:1%;
 	color:#663300;
+}
+
+#sidebar li {
+padding-bottom:1%;
+padding-top:1%;
+}
+
+#sidebar a {
+text-decoration:none;
+color:#663300;
 }
 
 #footer-wrapper {
@@ -154,6 +171,13 @@ p{
 #footer-follow li {
 	float:left;
 }
+
+img {
+	max-width:70%
+}
+
+
+
 ol, ul {
 	list-style: none;
 }
