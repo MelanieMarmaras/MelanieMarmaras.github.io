@@ -115,11 +115,12 @@ color:#663300;
 #content-wrapper {
 	background-color:white;
 	clear:both;
-	padding-bottom:30%;
+	padding-bottom:31%;
 }
 #content {
 	margin:0 auto;
 	width:60%;
+	padding-top:2em;
 	
 }
 #page {
@@ -168,6 +169,7 @@ color:#663300;
 	float:right;
 	margin-right:5%;
 	text-align:right;
+	padding-top:1em;
 }
 #footer-follow li {
 	float:left;
