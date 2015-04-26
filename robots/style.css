@@ -62,16 +62,16 @@ p{
 }
 #site-wrapper {
 	margin:0 auto;
-	width:80%;
+	background-color:beige;
+	
 }
 #site-header {
-	background-color:beige;
-	width:100%;
+	margin:0 auto;
+	width:60%;
 	height:50px;
 }
 #site-header h1 {
 	float:left;
-	width:50%;
 }
 #top-nav {
 	float:right;
@@ -85,10 +85,17 @@ p{
 }
 #main-menu {
 	margin:0 auto;
-	width:80%;
+	width:60%;
 }
+
+#main-menu a {
+	text-decoration:none;
+	color:pink;
+}
+
 #main-menu li {
-    float:left;	
+    float:left;
+	padding-right:2em	
 }
 #content-wrapper {
 	background-color:white;
@@ -96,7 +103,8 @@ p{
 }
 #content {
 	margin:0 auto;
-	width:80%;
+	width:60%;
+	
 }
 #page {
 	float:left;
@@ -114,20 +122,20 @@ p{
 }
 #footer-wrapper {
 	background-color:sienna;
-	height:100px;
+	height:150px;
 	clear:both;
 }
 #site-footer {
 	margin:0 auto;
-	width:80%;
+	width:60%;
 }
 #footer-contact {
 	float:left;
-	width:50%;
+	width:20%;
 }
 #footer-follow {
 	float:right;
-	width:50%;
+	margin-right:5%;
 	text-align:right;
 }
 #footer-follow li {
