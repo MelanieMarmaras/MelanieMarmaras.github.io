@@ -34,7 +34,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 	width:100%;
-	font-family:verdana;
+	font-family:helvetica;
     font-weight:lighter;
     font-style: normal;
 	font-size:7pt;
@@ -54,11 +54,12 @@ h2 {
 	text-transform:uppercase;
 	color:saddlebrown;
 	line-height:1.4em;
-	padding-top:1%;
+	padding-top:2%;
 }
 
 p{
 	line-height:1.4em;
+	margin-right:20%;
 }
 #site-wrapper {
 	margin:0 auto;
@@ -90,12 +91,17 @@ p{
 
 #main-menu a {
 	text-decoration:none;
-	color:pink;
+	color:white;
 }
 
 #main-menu li {
     float:left;
-	padding-right:2em	
+	padding:2em;
+	font-family:helvetica;
+    font-weight:bold;
+    font-style: normal;
+	font-size:9pt;	
+	text-transform:uppercase;
 }
 #content-wrapper {
 	background-color:white;
