@@ -73,11 +73,12 @@ h1 {
    font-weight:bold;
    padding-top:80px;
    padding-left:80px;
+   letter-spacing:2px;
    }
    
 nav li {
        float:right; 
-	   font-size:24px;  
+	   font-size:17px;  
 	   padding-top:84px;
 	   padding-right:80px;
        }
@@ -114,6 +115,7 @@ nav li {
 	        text-transform:uppercase;
             font-weight:bold;
 			padding-bottom:3px;
+			letter-spacing:1px;
             }
 		
 #sidebar h3 {
