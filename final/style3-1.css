@@ -64,41 +64,44 @@ a {
   
 a:hover {
 	    color:#FF9933;
-		text-decoration:underline;
         }
 
 h1 {
    float:left;
    font-family:Helvetica;
    text-transform:uppercase;
-   font-size:30px;
+   font-size:37px;
    font-weight:bold;
-   padding-top:60px;
-   padding-left:40px;
+   padding-top:80px;
+   padding-left:80px;
    }
    
 nav li {
        float:right; 
 	   font-family:Helvetica;
-	   font-size:14px;  
-	   padding-top:60px;
-	   padding-right:40px;
+	   font-size:24px;  
+	   padding-top:84px;
+	   padding-right:80px;
        }
 	   
 #large {
 	   margin: 0 auto;
 	   clear:both;
 	   float:left;
-	   padding-top:30px;
-	   width:50%;
+	   padding-top:170px;
+	   padding-left:80px;
+	   padding-bottom:80px;
+	   width:45%;
 	   }
 	    
 #sidebar {
+         margin: 0 auto;
+         clear:both;
 		 float:left;
 	     }
 		 
 img {
-	width:100%
+	padding-bottom:40px;
     }
 		 
 		 
