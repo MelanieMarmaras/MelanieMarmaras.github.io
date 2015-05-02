@@ -98,7 +98,6 @@ nav li {
 				 height:400px;
 	   	         margin-top:13%;
 	   	         position:relative;
-				 /*background-color:teal;*/
 	             }
 	   
 #sidebar {
@@ -136,7 +135,7 @@ img {
     }
 
 @media screen and (max-width:1150px) {
-	    #large {width:100%; margin-right:6%;}
+	    #large {clear:both; width:100%; margin-right:6%;}
 		#sidebar-wrapper {display:none;}
 		nav li {float:left; margin-top:15px; }
 		nav {clear:both; margin-left:80px;}
