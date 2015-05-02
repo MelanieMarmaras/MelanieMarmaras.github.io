@@ -52,7 +52,6 @@ table {
 body { 
 	 font-family:helvetica; 
 	 font-size:13px; 
-	 width:100%;
  	 line-height:1.5em;
 	 font-weight:lighter;
      font-style: normal;
@@ -71,16 +70,16 @@ h1 {
    text-transform:uppercase;
    font-size:37px;
    font-weight:bold;
-   padding-top:80px;
-   padding-left:80px;
+   margin-top:80px;
+   margin-left:80px;
    letter-spacing:2px;
    }
    
 nav li {
        float:right; 
 	   font-size:17px;  
-	   padding-top:84px;
-	   padding-right:80px;
+	   margin-top:84px;
+	   margin-right:80px;
        }
 	   
 #large {
@@ -132,13 +131,23 @@ span {
      }		 
 		  
 img {
-	padding-bottom:6%;
-	width: 100%;
+	margin-bottom:6%;
+	max-width:100%;
     }
+
+@media screen and (max-width:1150px) {
+	    #large {width:100%; margin-right:6%;}
+		#sidebar-wrapper {display:none;}
+		nav li {float:left; margin-top:15px; }
+		nav {clear:both; margin-left:80px;}
+	}
 		 
 		 
-		 
-		 
+@media screen and (max-width:550px) {
+       h1 {font-size:22px; margin-left:30px; letter-spacing:1px;}
+       nav {margin-left:30px;}
+
+}
 		 
 		 
 		 
