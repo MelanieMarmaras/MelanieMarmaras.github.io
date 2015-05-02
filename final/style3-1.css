@@ -91,13 +91,23 @@ nav li {
 	   padding-bottom:80px;
 	   width:45%;
 	   }
-	    
+	  
+	  
+#sidebar-wrapper {
+	float:left;
+	width:350px;
+	margin-left:260px;
+	margin-top:170px;
+}
+		
+/*
 #sidebar {
 	     float:left;
 		 width:25%;
 		 padding-top:170px;
 		 padding-left:260px;
 	     }
+	 */
 	 
 #sidebar h2 {
 	        font-size:24px; 
