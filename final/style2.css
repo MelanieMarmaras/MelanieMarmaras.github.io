@@ -141,8 +141,8 @@ nav li {
 	             float:left;
 	   	         /*width:38%;*/
 				 width:500px;
-				 height:400px;
-	   	         margin-top:13%;
+				 height:500px;
+	   	         margin-top:8%;
 	   	         position:relative;
 	             }
 	   
@@ -182,6 +182,12 @@ img {
 	margin-right:6%;
 	max-width:100%;
     }
+	
+#sidebar img {
+	         width:27%;
+			 margin-bottom:2%;
+			 margin-right:2%;
+             }
 
 @media screen and (max-width:1150px) {
 	    #container {width:100%;}
