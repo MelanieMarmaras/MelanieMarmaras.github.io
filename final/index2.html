@@ -3,6 +3,7 @@
   <head>
 <title>MM Portfolio</title>
 <link href="style2.css" rel="Stylesheet" type="text/css" />
+<script src='https://code.jquery.com/jquery-1.11.3.min.js'></script>
   </head>
   	<body>
 	  <header>
@@ -15,8 +16,10 @@
 		  </nav>
        </header>
 	      <article id='large'>
+			  <a href='#' >
 			<img src="images/big/b-vision-01.jpg" alt="vision">  
-			<img src="images/big/b-cc-pamphlet-01.jpg" alt="pamphlet">
+		   </a>
+			<!-- ><img src="images/big/b-cc-pamphlet-01.jpg" alt="pamphlet">
 			<img src="images/big/b-cc-interface-01.jpg" alt="interface">
 			<img src="images/big/b-post-app-01.jpg" alt="app">
 			<img src="images/big/b-post-poster-01.jpg" alt="poster">
@@ -24,24 +27,103 @@
 			<img src="images/big/b-gallery-01.jpg" alt="gallery">
 			<img src="images/big/b-sphere-11.jpg" alt="sphere">
 			<img src="images/big/b-style-01.jpg" alt="style">
-			 
+			   -->
 		    <h2>Spiritual Vision</h2>
-			  <h3>type expressions book</h3>
+			<h3>type expressions book</h3>
 		  </article>
 		  
 		  <div id='sidebar-wrapper'>
 		  <article id='sidebar'>
-			<img src="images/small/s-vision.jpg" alt="vision">  
-			<img src="images/small/s-cc-pamphlet.jpg" alt="pamphlet">
-			<img src="images/small/s-cc-interface.png" alt="interface">
-			<img src="images/small/s-post-app2.jpg" alt="app2">
-			<img src="images/small/s-post-poster.jpg" alt="poster">
-			<img src="images/small/s-energy.jpg" alt="energy">
-			<img src="images/small/s-gallery.jpg" alt="gallery">
+			  
+			<div class="thumbnail imagehover" 
+			data-detail='images/big/b-vision-01.jpg' 
+			data-caption='This is the caption' 
+			data-caption2='This is the caption'
+			data-href='index3-1.html'>
+			<img src="images/small/s-vision.jpg" alt="vision"> 
+			</div> 
+			
+			<div class="thumbnail imagehover" 
+			data-detail='images/big/b-cc-pamphlet-01.jpg' 
+			data-caption='This is the caption' 
+			data-caption2='This is the caption'
+			data-href='index3-2.html'>
+			<img src="images/small/s-cc-pamphlet.jpg" alt="pamphlet"> 
+			</div>
+			
+			<div class="thumbnail imagehover" 
+			data-detail='images/big/b-cc-interface-01.jpg' 
+			data-caption='This is the caption' 
+			data-caption2='This is the caption'
+			data-href='index3-3.html'>
+			<img src="images/small/s-cc-interface.png" alt="interface"> 
+			</div>
+			
+			<div class="thumbnail imagehover" 
+			data-detail='images/big/b-post-app-01.jpg' 
+			data-caption='This is the caption' 
+			data-caption2='This is the caption'
+			data-href='index3-4.html'>
+			<img src="images/small/s-post-app2.jpg" alt="app2"> 
+			</div>
+
+			<div class="thumbnail imagehover" 
+			data-detail='images/big/b-post-poster-01.jpg' 
+			data-caption='This is the caption' 
+			data-caption2='This is the caption'
+			data-href='index3-5.html'>
+			<img src="images/small/s-post-poster.jpg" alt="poster"> 
+			</div>
+			
+			<div class="thumbnail imagehover" 
+			data-detail='images/big/b-energy-01.jpg' 
+			data-caption='This is the caption' 
+			data-caption2='This is the caption'
+			data-href='index3-6.html'>
+			<img src="images/small/s-energy.jpg" alt="energy"> 
+			</div>
+			
+			<div class="thumbnail imagehover" 
+			data-detail='images/big/b-gallery-01.jpg' 
+			data-caption='This is the caption' 
+			data-caption2='This is the caption'
+			data-href='index3-7.html'>
+			<img src="images/small/s-gallery.jpg" alt="gallery"> 
+			</div>
+			
+			<div class="thumbnail imagehover" 
+			data-detail='images/big/b-sphere-01.jpg' 
+			data-caption='This is the caption' 
+			data-caption2='This is the caption'
+			data-href='index3-8.html'>
 			<img src="images/small/s-sphere.jpg" alt="sphere">
+			</div>
+			
+			<div class="thumbnail imagehover" 
+			data-detail='images/big/b-style-01.jpg' 
+			data-caption='This is the caption' 
+			data-caption2='This is the caption'
+			data-href='index3-9.html'>
 			<img src="images/small/s-style.jpg" alt="style">
+			</div>
 			
 		   </article>
 	   </div>
+	   
+  <script>
+	   $(".thumbnail").on("click",function(e) {
+		   var bigImage = $(this).data("detail");
+		   var caption = $(this).data("caption");
+		   var caption2 = $(this).data("caption2");
+		   var href = $(this).data("href");
+		   
+		   $("#large img").attr("src",bigImage);
+		   $("#large h2").text(caption);
+		   $("#large h3").text(caption2);
+		   $("#large a").attr("href",href)
+	   });
+	   
+	   </script>
+	   
   </body>
 </html>

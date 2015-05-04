@@ -184,10 +184,25 @@ img {
     }
 	
 #sidebar img {
-	         width:28%;
+	         /*width:28%;*/
 			 margin-bottom:3%;
 			 margin-right:3%;
              }
+			
+.imghover:hover div{
+		  opacity:.4;
+	      }
+			 
+	.imagehover {
+		position:relative;
+		float:left;
+		width:120px;
+	
+	       }
+		  .hovertext {position:absolute;
+			  top:30%;
+			  text-align:center;
+		  } 		 
 
 @media screen and (max-width:1150px) {
 	    #container {width:100%;}
@@ -204,7 +219,6 @@ img {
 	   .left {font-size:18px;}
 	   .right {font-size:18px;}
 }
-		 
 		 
 		 
 		 
