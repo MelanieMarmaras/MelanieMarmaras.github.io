@@ -189,7 +189,7 @@ img {
 			 margin-right:3%;
              }
 			
-.imghover:hover div{
+img:hover {
 		  opacity:.4;
 	      }
 			 
