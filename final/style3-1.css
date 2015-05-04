@@ -112,7 +112,7 @@ nav li {
 	   
 #arrows {
 	    position:absolute;
-	    font-size:30px;
+	    
 	    }
 		
 .left {
@@ -125,7 +125,7 @@ nav li {
 .right {
 	   right:0px;
        position:absolute;
-       font-size:30px;
+      font-size:30px;
 }	
 	   
 #large {
@@ -179,13 +179,13 @@ span {
 		  
 img {
 	margin-bottom:6%;
-	
 	margin-right:6%;
 	max-width:100%;
     }
 
 @media screen and (max-width:1150px) {
-	    #large {clear:both; width:80%; margin-right:6%;}
+	    #container {width:100%;}
+	    #large {clear:both; width:70%; margin-right:6%;}
 		#sidebar-wrapper {display:none;}
 		nav li {float:left; margin-top:15px; }
 		nav {clear:both; margin-left:80px;}
@@ -195,6 +195,8 @@ img {
 @media screen and (max-width:550px) {
        h1 {font-size:22px; margin-left:30px; letter-spacing:1px;}
        nav {margin-left:30px;}
+	   .left {font-size:18px;}
+	   .right {font-size:18px;}
 
 }
 		 
