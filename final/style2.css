@@ -190,19 +190,41 @@ img {
              }
 			
 img:hover {
-		  opacity:.4;
+		  opacity:.5;
 	      }
 			 
-	.imagehover {
-		position:relative;
-		float:left;
-		width:120px;
-	
-	       }
-		  .hovertext {position:absolute;
-			  top:30%;
-			  text-align:center;
-		  } 		 
+.imagehover {
+		    position:relative;
+		    float:left;
+		    width:120px;
+            }
+			
+.hovertext {
+	       position:absolute;
+		   top:30%;
+		   text-align:center;
+		   } 	
+
+h2 {
+   color:black;
+   font-size:24px; 
+   text-transform:uppercase;
+   font-weight:bold;
+   padding-bottom:3px;
+   letter-spacing:1px;
+   text-align:center;
+   
+   }
+   
+   h3 {
+	  color:black;
+      font-size:17px;
+	  font-weight:normal;
+      padding-bottom:3px;
+      letter-spacing:1px;
+	  text-align:center;
+      }   
+
 
 @media screen and (max-width:1150px) {
 	    #container {width:100%;}
