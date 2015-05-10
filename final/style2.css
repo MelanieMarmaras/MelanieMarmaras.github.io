@@ -220,6 +220,7 @@ h2 {
    }
    
    h3 {
+	   display:hidden;
 	  color:black;
       font-size:17px;
 	  font-weight:normal;
