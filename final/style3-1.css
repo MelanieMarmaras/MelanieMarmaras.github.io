@@ -74,6 +74,12 @@ table {
     font-style: normal;
 }
 
+.head-container {
+	    background-color:pink;
+	    height: 150px;
+		width:100%;
+}
+
 body { 
 	 font-family:'montserrat_regular'; 
 	 font-size:13px; 

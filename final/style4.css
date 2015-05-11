@@ -113,7 +113,7 @@ nav li {
 	   margin-left:6%;
 	   margin-top:8%;
 	   /*margin-bottom:80px;*/
-	   width:50%;
+	   width:55%;
        }
 	  
 #sidebar-wrapper {
@@ -132,7 +132,7 @@ nav li {
 	     }
 	 
 	 
-#sidebar h2 {
+#large h2 {
 	        font-size:24px; 
 	        text-transform:uppercase;
             font-weight:bold;
@@ -140,7 +140,7 @@ nav li {
 			letter-spacing:1px;
             }
 		
-#sidebar h3 {
+#large h3 {
             font-size:17px;
 			font-weight:normal;
 			padding-bottom:23px;
@@ -157,9 +157,10 @@ span {
      }		 
 		  
 img {
+	float:left;
 	margin-bottom:6%;
 	margin-right:6%;
-	max-width:50%;
+	max-width:35%;
     }
 
 	p {padding-bottom:10%;}
