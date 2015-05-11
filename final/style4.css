@@ -161,11 +161,12 @@ img {
 
 @media screen and (max-width:1150px) {
 	    #large { width:55%;}
-		#inside-large {width:90%; }
+		#inside-large {width:90%;
+		float:none; }
 		
 		nav li {float:left; margin-top:15px; }
 		nav {clear:both; margin-left:80px;}
-		img {max-width:35%;}
+		img {max-width:35%; }
 	
 	}
 		 
