@@ -74,6 +74,14 @@ table {
     font-style: normal;
 }
 
+.head-container {
+	    background-color:pink;
+	    height: 150px;
+		width:100%;
+		position:fixed;
+		z-index:1;
+}
+
 body { 
 	 font-family:'montserrat_regular'; 
 	 font-size:13px; 
@@ -132,7 +140,7 @@ nav li {
 	   clear:both;
 	   float:left;
 	   margin-left:6%;
-	   margin-top:8%;
+	   margin-top:15%;
 	   /*margin-bottom:80px;*/
 	   width:50%;
        }
@@ -142,7 +150,7 @@ nav li {
 	   	         /*width:38%;*/
 				 width:500px;
 				 height:400px;
-	   	         margin-top:13%;
+	   	         margin-top:20%;
 	   	         position:relative;
 	             }
 	   
