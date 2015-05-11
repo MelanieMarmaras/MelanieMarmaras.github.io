@@ -114,22 +114,16 @@ nav li {
 	   margin-top:8%;
 	   /*margin-bottom:80px;*/
 	   width:55%;
+	   position:relative;
        }
 	  
-#sidebar-wrapper {
-	             float:left;
-	   	         /*width:38%;*/
-				 width:500px;
-				 height:400px;
-	   	         margin-top:13%;
-	   	         position:relative;
-	             }
+#inside-large {
+	position:absolute;
+}	  
+	  
+
 	   
-#sidebar {
-	     position:absolute;
-		 padding-left:15%;
-		 width:400px;
-	     }
+
 	 
 	 
 #large h2 {
@@ -166,10 +160,13 @@ img {
 	p {padding-bottom:10%;}
 
 @media screen and (max-width:1150px) {
-	    #large {clear:both; width:70%; margin-right:6%;}
-		#sidebar-wrapper {display:none;} 
+	    #large { width:55%;}
+		#inside-large {width:90%; }
+		
 		nav li {float:left; margin-top:15px; }
 		nav {clear:both; margin-left:80px;}
+		img {max-width:35%;}
+	
 	}
 		 
 		 
