@@ -249,7 +249,8 @@ h2 {
 @media screen and (max-width:1150px) {
 	    #container {width:100%;}
 	    #large {clear:both; width:70%; margin-right:6%;}
-		#sidebar-wrapper {display:none;} 
+		#sidebar-wrapper {width:100%;}
+		#sidebar {width:80%; padding-left:4%;}
 		nav li {float:left; margin-top:15px; }
 		nav {clear:both; margin-left:80px;}
 	}
