@@ -251,6 +251,7 @@ h2 {
 	    #large {clear:both; width:70%; margin-right:6%;}
 		#sidebar-wrapper {width:100%;}
 		#sidebar {width:80%; padding-left:4%;}
+		h2 {font-size:22px;}
 		nav li {float:left; margin-top:15px; }
 		nav {clear:both; margin-left:80px;}
 	}
@@ -259,6 +260,7 @@ h2 {
 @media screen and (max-width:550px) {
        h1 {font-size:22px; margin-left:30px; letter-spacing:1px;}
        nav {margin-left:30px;}
+	   h2 {font-size:16px;}
 	   .left {font-size:18px;}
 	   .right {font-size:18px;}
 }
