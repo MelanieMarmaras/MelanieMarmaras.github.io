@@ -192,6 +192,18 @@ img {
 img:hover {
 		  opacity:.3;
 	      }
+		
+#large h2 {
+	      display:none;
+          }			
+			 
+#large:hover img {
+	             opacity:.3;
+                 }	
+		 
+#large:hover h2 {
+	             display:block;
+                 }		
 			 
 .imagehover {
 		    position:relative;
@@ -219,7 +231,6 @@ h2 {
    left:15%;
    right:15%;
    vertical-align:middle;
-   
    }
    
    h3 {
